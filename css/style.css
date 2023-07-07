@@ -1,4 +1,14 @@
+/* universel seletor */
 *{
     margin: 0;
     padding: 0;
+}
+/* common style start */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav style start */
+nav{
+    display: flex;
 }
