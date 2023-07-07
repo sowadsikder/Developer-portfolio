@@ -25,6 +25,8 @@ body{
 /* nav style start */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo-title{
     color: #181818;
@@ -33,6 +35,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav > ul > li{
     list-style: none;
