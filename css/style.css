@@ -1,14 +1,44 @@
 /* universel seletor */
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 /* common style start */
 body{
-    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+}
+/* Primary Color code */
+.primaryColor{
+    color: #FD6E0A;
+}
+/* Primary Button Code */
+.btn-primary{
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 /* nav style start */
 nav{
     display: flex;
+}
+.logo-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #474747;
 }
