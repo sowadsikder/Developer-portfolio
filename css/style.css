@@ -9,7 +9,7 @@ body{
     font-weight: 700;
 }
 .section-text{
-color: var#757575;
+color: #757575;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
@@ -112,4 +112,8 @@ main{
  p.info-text {
     color: #181818;
     font-weight: 800;
+}
+/* what i do style start */
+p#what-i-do-text {
+    padding: 30px 150px;
 }
